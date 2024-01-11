@@ -2,14 +2,12 @@ body {
     font-family: roboto;
     min-height: 100vh;
     margin: 0;
-}
-.banner {
     background-image: url(images/Main.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 600px;
 }
+
 
 .header{
     display: flex;
