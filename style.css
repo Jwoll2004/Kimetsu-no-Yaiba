@@ -1,0 +1,100 @@
+body {
+    font-family: roboto;
+    min-height: 100vh;
+    margin: 0;
+}
+.banner {
+    background-image: url(images/Main.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.699);
+    padding: 0 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.853);
+
+}
+
+.left-links, .right-links {
+    display: flex;
+    gap: 30px;
+}
+
+.headerbutton {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: 500;
+}
+.header .left-links {
+    margin-right: auto;
+}
+.header .right-links {
+    margin-left: auto;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    width: auto;
+    height: 40px;
+}
+
+
+.hero {
+    margin-top: 80px;
+    display: flex;
+    gap: 80px;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.desc {
+    color: white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.611);
+    border-radius: 30px;
+    padding: 0 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.853);
+
+}
+
+.stickers{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+}
+#credit {
+    color: white;
+    font-weight: bold;
+}
+
+.stickers .logo {
+    width: auto;
+    height: 60px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#hero {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.853);
+}
