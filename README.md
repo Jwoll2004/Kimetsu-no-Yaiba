@@ -1,4 +1,4 @@
-# Landing-Page
+# Kimetsu-no-Yaiba
 
 This is a WebPage I made using HTML, CSS with implementation of FlexBox during the Foundations course on TheOdinProject.
 
